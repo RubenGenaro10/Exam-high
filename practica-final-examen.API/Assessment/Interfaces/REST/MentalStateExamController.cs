@@ -8,7 +8,7 @@ using practica_final_examen.API.Assessment.Interfaces.REST.Transform;
 namespace practica_final_examen.API.Assessment.Interfaces.REST;
 
 [ApiController]
-[Route("api/v1/[controller]")]
+[Route("api/v1/mental-state-exams")]
 [Produces(MediaTypeNames.Application.Json)]
 public class MentalStateExamController(IMentalStateExamCommandService mentalStateExamCommandService):ControllerBase
 {

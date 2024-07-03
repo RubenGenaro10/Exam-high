@@ -7,7 +7,7 @@ using practica_final_examen.API.Personnel.Interfaces.REST.Transform;
 namespace practica_final_examen.API.Personnel.Interfaces.REST;
 
 [ApiController]
-[Route("api/v1/[controller]")]
+[Route("api/v1/examiners")]
 [Produces(MediaTypeNames.Application.Json)]
 public class ExaminerController(IExaminerCommandService examinerCommandService):ControllerBase
 {
